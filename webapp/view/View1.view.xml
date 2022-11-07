@@ -1,0 +1,21 @@
+<mvc:View controllerName="com.vestas.test.ArrowButton.controller.View1" xmlns:mvc="sap.ui.core.mvc" displayBlock="true" xmlns="sap.m"
+	xmlns:cc="com.vestas.test.ArrowButton.control">
+	<Shell id="shell">
+		<App id="app">
+			<pages>
+				<Page id="page" title="{i18n>title}">
+					<content>
+						<HBox fitContainer="true" alignItems="Stretch">
+							<cc:arrowButton text="Default Button" direction="right" type="default" class="sapUiTinyMarginTop" press="buttonPress" />
+							<cc:arrowButton text="Primary Button" direction="right" type="primary" class="sapUiTinyMarginTop" press="buttonPress"/>
+							<cc:arrowButton text="Success Button" direction="right" type="success" class="sapUiTinyMarginTop" press="buttonPress"/>
+							<cc:arrowButton text="Info Button" direction="right" type="info" class="sapUiTinyMarginTop" press="buttonPress"/>
+							<cc:arrowButton text="Warning Button" direction="right" type="warning" class="sapUiTinyMarginTop" press="buttonPress"/>
+							<cc:arrowButton text="Danger Button" direction="right" type="danger" class="sapUiTinyMarginTop"  press="buttonPress"/>
+						</HBox>
+					</content>
+				</Page>
+			</pages>
+		</App>
+	</Shell>
+</mvc:View>
